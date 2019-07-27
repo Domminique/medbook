@@ -1,5 +1,34 @@
 # Medbook
 
+##True or False 
+1. True
+2. False
+3. False
+4. True
+5. True
+
+##Explain
+
+ 
+1. I will divide the screen into 3 equal rows and 
+place the p tag in the miidle row. leavin the other 2 
+rows blank
+
+2. Using property binding [ ] syntax on elements 
+
+3. CSS box model is a container which contains multiple
+ properties including borders, margin, padding and the
+ content itself.
+
+4.visibilty hidden hides the element but its space is 
+ retained in the layout in other words the element will still 
+ take space in design display , on the other hand 
+ display: none doesn't preserve the space.
+
+5. By using preprocessor like Sass in Angularjs projects
+
+ 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
 ## Development server
