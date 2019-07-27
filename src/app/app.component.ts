@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'medbook';
-
+  checked = true;
   dishes =  [
     {
-    name: 'Salad', choices: [
+    name: 'Salad', 
+    choices: [
     { name: 'Santa Fe' },
     { name: 'Greek' },
     { name: 'Asian' },

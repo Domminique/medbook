@@ -10,11 +10,13 @@
 <h2>Restuarant Menu</h2>
 <div *ngFor="let dish of dishes">
   <h3>
-    <input type="checkbox"> {{ dish.name }}
+    <input type="checkbox" > {{ dish.name }}
   </h3>
-  <p *ngIf="dish.related">
-    {{ dish.name }}
+  <p *ngIf="dish.checked">
+    {{ dish.choices }}
   </p>
+
+  
 </div>
 
 

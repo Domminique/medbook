@@ -31,6 +31,9 @@ rows blank
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
+ ## Deployment
+To deploy your application, you have to compile it, and then host the JavaScript, CSS, and HTML on a web server. Running ng build --prod will create a [dist] folder in your local repository, copy the files and copy then in a folder called public on the server side. Built Angular applications are very portable and can live in any environment or served by any technology, such as Node, Java, .NET, PHP, and many others.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
