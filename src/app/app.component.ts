@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'medbook';
   checked : boolean;
+  show: boolean = true;
   dishes =  [
     {
     name: 'Salad', 

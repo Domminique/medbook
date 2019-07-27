@@ -12,8 +12,8 @@
   <h3>
     <input [checked]="dish.checked" type="checkbox" > {{ dish.name }}
   </h3>
-  <p *ngIf="dish"> 
-    {{ dish }}
+  <p *ngIf="dish.checked=='true'"> 
+    {{ dish}}
   </p>  
 </div>
 
