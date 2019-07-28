@@ -1,20 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1 style="background-color: bisque">
+  <h1 style="background-color: coral">
     Welcome to {{ title }}!
   </h1>
  
 </div>
 
-
 <h2>Restuarant Menu</h2>
 <div *ngFor="let dish of dishes">
-  <h3>
-    <input [checked]="dish.checked" type="checkbox" > {{ dish.name }}
+  <h3><button (click)="show = !show">
+    <input [checked]="dish.checked" type="checkbox" > {{ dish.name }} </button>
   </h3>
+  <div *ngIf="!show">
+      {{ dish }}
+  </div>
   <p *ngIf="dish.checked=='true'"> 
+       
     {{ dish}}
-  </p>  
+  </p> 
+  
+  <h3><button (click)="show = !show">
+      <input [checked]="dish.checked" type="checkbox" > {{ dish.name }} </button>
+    </h3>
 </div>
 <hr>
 

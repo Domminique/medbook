@@ -10,6 +10,9 @@ export class AppComponent {
   title = 'medbook';
   checked : boolean;
   show: boolean = true;
+  jishow: boolean = true;
+  washow: boolean = true;
+  
   dishes =  [
     {
     name: 'Salad', 
